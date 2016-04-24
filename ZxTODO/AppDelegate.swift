@@ -13,10 +13,18 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDelegate {
 
     var window: UIWindow?
+    let services = ServicesLocator()
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        services.dropboxService.handleAppLaunch()
+        
+        if let rvc = self.window!.rootViewController as? AuthViewController {
+            rvc.viewModel = AuthViewModel(servicesLocator: services)
+        }
+        
+        /* old imperative version
         let splitViewController = self.window!.rootViewController as! UISplitViewController
         let navigationController = splitViewController.viewControllers[splitViewController.viewControllers.count-1] as! UINavigationController
         navigationController.topViewController!.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem()
@@ -25,6 +33,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
         let masterNavigationController = splitViewController.viewControllers[0] as! UINavigationController
         let controller = masterNavigationController.topViewController as! MasterViewController
         controller.managedObjectContext = self.managedObjectContext
+         */
+        
         return true
     }
 
@@ -51,19 +61,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
         // Saves changes in the application's managed object context before the application terminates.
         self.saveContext()
     }
-
-    // MARK: - Split view
-
-    func splitViewController(splitViewController: UISplitViewController, collapseSecondaryViewController secondaryViewController:UIViewController, ontoPrimaryViewController primaryViewController:UIViewController) -> Bool {
-        guard let secondaryAsNavController = secondaryViewController as? UINavigationController else { return false }
-        guard let topAsDetailController = secondaryAsNavController.topViewController as? DetailViewController else { return false }
-        if topAsDetailController.detailItem == nil {
-            // Return true to indicate that we have handled the collapse by doing nothing; the secondary controller will be discarded.
-            return true
-        }
+    
+    func application(app: UIApplication, openURL url: NSURL, options: [String : AnyObject]) -> Bool {
+        services.dropboxService.handleAppOpenURL(url)
         return false
     }
+
     // MARK: - Core Data stack
+    // TODO: replace imperative CoreData with reactive (see https://github.com/SwiftReactive/SugarRecord)
 
     lazy var applicationDocumentsDirectory: NSURL = {
         // The directory the application uses to store the Core Data store file. This code uses a directory named "com.home.zubrin.ZxTODO" in the application's documents Application Support directory.

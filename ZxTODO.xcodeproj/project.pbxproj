@@ -1,1314 +1,755 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>1069374911F5ED8A0C7A2C16</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-ZxTODO.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-ZxTODO/Pods-ZxTODO.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2598CC6E0FF23FADBA77712E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BF650B07C96C739DC2C57314</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>262277782361CC1BEFDC9E32</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>4154FADA5112835D575A03A4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-ZxTODOTests.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-ZxTODOTests/Pods-ZxTODOTests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5E351CDBD1922AD84DF42591</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F2B6C561B370871E30D775BA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>64B5A1993599D6619D310F2A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-ZxTODO.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-ZxTODO/Pods-ZxTODO.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>721066124EAFD3B7D709EC7E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-ZxTODOTests/Pods-ZxTODOTests-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>796FAB10B5EC1A30731BF7BB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F2B6C561B370871E30D775BA</string>
-				<string>BF650B07C96C739DC2C57314</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>801999C5D6378BFCB75E05D5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-ZxTODOTests.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-ZxTODOTests/Pods-ZxTODOTests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8D8B7B2A1CC9D563004B9B68</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8D8B7B351CC9D564004B9B68</string>
-				<string>8D8B7B4F1CC9D564004B9B68</string>
-				<string>8D8B7B5A1CC9D564004B9B68</string>
-				<string>8D8B7B341CC9D563004B9B68</string>
-				<string>A659D6AF625DBA42BCFB220A</string>
-				<string>796FAB10B5EC1A30731BF7BB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8D8B7B2B1CC9D563004B9B68</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0730</string>
-				<key>LastUpgradeCheck</key>
-				<string>0730</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Slava Zubrin</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>8D8B7B321CC9D563004B9B68</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.3</string>
-					</dict>
-					<key>8D8B7B4B1CC9D564004B9B68</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.3</string>
-						<key>TestTargetID</key>
-						<string>8D8B7B321CC9D563004B9B68</string>
-					</dict>
-					<key>8D8B7B561CC9D564004B9B68</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.3</string>
-						<key>TestTargetID</key>
-						<string>8D8B7B321CC9D563004B9B68</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>8D8B7B2E1CC9D563004B9B68</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>8D8B7B2A1CC9D563004B9B68</string>
-			<key>productRefGroup</key>
-			<string>8D8B7B341CC9D563004B9B68</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>8D8B7B321CC9D563004B9B68</string>
-				<string>8D8B7B4B1CC9D564004B9B68</string>
-				<string>8D8B7B561CC9D564004B9B68</string>
-			</array>
-		</dict>
-		<key>8D8B7B2E1CC9D563004B9B68</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>8D8B7B5E1CC9D564004B9B68</string>
-				<string>8D8B7B5F1CC9D564004B9B68</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>8D8B7B2F1CC9D563004B9B68</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8D8B7B371CC9D564004B9B68</string>
-				<string>8D8B7B3A1CC9D564004B9B68</string>
-				<string>8D8B7B3C1CC9D564004B9B68</string>
-				<string>8D8B7B3E1CC9D564004B9B68</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8D8B7B301CC9D563004B9B68</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>5E351CDBD1922AD84DF42591</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8D8B7B311CC9D563004B9B68</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8D8B7B461CC9D564004B9B68</string>
-				<string>8D8B7B431CC9D564004B9B68</string>
-				<string>8D8B7B411CC9D564004B9B68</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8D8B7B321CC9D563004B9B68</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>8D8B7B601CC9D564004B9B68</string>
-			<key>buildPhases</key>
-			<array>
-				<string>C6EC4EED4EC38DD8AF1B82ED</string>
-				<string>8D8B7B2F1CC9D563004B9B68</string>
-				<string>8D8B7B301CC9D563004B9B68</string>
-				<string>8D8B7B311CC9D563004B9B68</string>
-				<string>EC0B5C3A7B0075066AA97A9D</string>
-				<string>C7E9E33ECA7266C032957008</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>ZxTODO</string>
-			<key>productName</key>
-			<string>ZxTODO</string>
-			<key>productReference</key>
-			<string>8D8B7B331CC9D563004B9B68</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>8D8B7B331CC9D563004B9B68</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>ZxTODO.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>8D8B7B341CC9D563004B9B68</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8D8B7B331CC9D563004B9B68</string>
-				<string>8D8B7B4C1CC9D564004B9B68</string>
-				<string>8D8B7B571CC9D564004B9B68</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8D8B7B351CC9D564004B9B68</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8D8B7B361CC9D564004B9B68</string>
-				<string>8D8B7B3B1CC9D564004B9B68</string>
-				<string>8D8B7B3D1CC9D564004B9B68</string>
-				<string>8D8B7B3F1CC9D564004B9B68</string>
-				<string>8D8B7B421CC9D564004B9B68</string>
-				<string>8D8B7B441CC9D564004B9B68</string>
-				<string>8D8B7B471CC9D564004B9B68</string>
-				<string>8D8B7B381CC9D564004B9B68</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>ZxTODO</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8D8B7B361CC9D564004B9B68</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>AppDelegate.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8D8B7B371CC9D564004B9B68</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8D8B7B361CC9D564004B9B68</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8D8B7B381CC9D564004B9B68</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8D8B7B391CC9D564004B9B68</string>
-			</array>
-			<key>currentVersion</key>
-			<string>8D8B7B391CC9D564004B9B68</string>
-			<key>isa</key>
-			<string>XCVersionGroup</string>
-			<key>path</key>
-			<string>ZxTODO.xcdatamodeld</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-			<key>versionGroupType</key>
-			<string>wrapper.xcdatamodel</string>
-		</dict>
-		<key>8D8B7B391CC9D564004B9B68</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.xcdatamodel</string>
-			<key>path</key>
-			<string>ZxTODO.xcdatamodel</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8D8B7B3A1CC9D564004B9B68</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8D8B7B381CC9D564004B9B68</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8D8B7B3B1CC9D564004B9B68</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>MasterViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8D8B7B3C1CC9D564004B9B68</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8D8B7B3B1CC9D564004B9B68</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8D8B7B3D1CC9D564004B9B68</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>DetailViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8D8B7B3E1CC9D564004B9B68</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8D8B7B3D1CC9D564004B9B68</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8D8B7B3F1CC9D564004B9B68</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8D8B7B401CC9D564004B9B68</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8D8B7B401CC9D564004B9B68</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8D8B7B411CC9D564004B9B68</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8D8B7B3F1CC9D564004B9B68</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8D8B7B421CC9D564004B9B68</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Assets.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8D8B7B431CC9D564004B9B68</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8D8B7B421CC9D564004B9B68</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8D8B7B441CC9D564004B9B68</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8D8B7B451CC9D564004B9B68</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8D8B7B451CC9D564004B9B68</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8D8B7B461CC9D564004B9B68</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8D8B7B441CC9D564004B9B68</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8D8B7B471CC9D564004B9B68</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8D8B7B481CC9D564004B9B68</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8D8B7B511CC9D564004B9B68</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8D8B7B491CC9D564004B9B68</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>2598CC6E0FF23FADBA77712E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8D8B7B4A1CC9D564004B9B68</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8D8B7B4B1CC9D564004B9B68</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>8D8B7B631CC9D564004B9B68</string>
-			<key>buildPhases</key>
-			<array>
-				<string>262277782361CC1BEFDC9E32</string>
-				<string>8D8B7B481CC9D564004B9B68</string>
-				<string>8D8B7B491CC9D564004B9B68</string>
-				<string>8D8B7B4A1CC9D564004B9B68</string>
-				<string>E843DD00D092BA781424BAB5</string>
-				<string>721066124EAFD3B7D709EC7E</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>8D8B7B4E1CC9D564004B9B68</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>ZxTODOTests</string>
-			<key>productName</key>
-			<string>ZxTODOTests</string>
-			<key>productReference</key>
-			<string>8D8B7B4C1CC9D564004B9B68</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>8D8B7B4C1CC9D564004B9B68</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>ZxTODOTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>8D8B7B4D1CC9D564004B9B68</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>8D8B7B2B1CC9D563004B9B68</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>8D8B7B321CC9D563004B9B68</string>
-			<key>remoteInfo</key>
-			<string>ZxTODO</string>
-		</dict>
-		<key>8D8B7B4E1CC9D564004B9B68</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>8D8B7B321CC9D563004B9B68</string>
-			<key>targetProxy</key>
-			<string>8D8B7B4D1CC9D564004B9B68</string>
-		</dict>
-		<key>8D8B7B4F1CC9D564004B9B68</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8D8B7B501CC9D564004B9B68</string>
-				<string>8D8B7B521CC9D564004B9B68</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>ZxTODOTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8D8B7B501CC9D564004B9B68</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>ZxTODOTests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8D8B7B511CC9D564004B9B68</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8D8B7B501CC9D564004B9B68</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8D8B7B521CC9D564004B9B68</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8D8B7B531CC9D564004B9B68</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8D8B7B5C1CC9D564004B9B68</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8D8B7B541CC9D564004B9B68</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8D8B7B551CC9D564004B9B68</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8D8B7B561CC9D564004B9B68</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>8D8B7B661CC9D564004B9B68</string>
-			<key>buildPhases</key>
-			<array>
-				<string>8D8B7B531CC9D564004B9B68</string>
-				<string>8D8B7B541CC9D564004B9B68</string>
-				<string>8D8B7B551CC9D564004B9B68</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>8D8B7B591CC9D564004B9B68</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>ZxTODOUITests</string>
-			<key>productName</key>
-			<string>ZxTODOUITests</string>
-			<key>productReference</key>
-			<string>8D8B7B571CC9D564004B9B68</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.ui-testing</string>
-		</dict>
-		<key>8D8B7B571CC9D564004B9B68</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>ZxTODOUITests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>8D8B7B581CC9D564004B9B68</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>8D8B7B2B1CC9D563004B9B68</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>8D8B7B321CC9D563004B9B68</string>
-			<key>remoteInfo</key>
-			<string>ZxTODO</string>
-		</dict>
-		<key>8D8B7B591CC9D564004B9B68</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>8D8B7B321CC9D563004B9B68</string>
-			<key>targetProxy</key>
-			<string>8D8B7B581CC9D564004B9B68</string>
-		</dict>
-		<key>8D8B7B5A1CC9D564004B9B68</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8D8B7B5B1CC9D564004B9B68</string>
-				<string>8D8B7B5D1CC9D564004B9B68</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>ZxTODOUITests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8D8B7B5B1CC9D564004B9B68</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>ZxTODOUITests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8D8B7B5C1CC9D564004B9B68</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8D8B7B5B1CC9D564004B9B68</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8D8B7B5D1CC9D564004B9B68</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8D8B7B5E1CC9D564004B9B68</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>ENABLE_TESTABILITY</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>8D8B7B5F1CC9D564004B9B68</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>8D8B7B601CC9D564004B9B68</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>8D8B7B611CC9D564004B9B68</string>
-				<string>8D8B7B621CC9D564004B9B68</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>8D8B7B611CC9D564004B9B68</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>64B5A1993599D6619D310F2A</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>INFOPLIST_FILE</key>
-				<string>ZxTODO/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.home.zubrin.ZxTODO</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>8D8B7B621CC9D564004B9B68</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>1069374911F5ED8A0C7A2C16</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>INFOPLIST_FILE</key>
-				<string>ZxTODO/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.home.zubrin.ZxTODO</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>8D8B7B631CC9D564004B9B68</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>8D8B7B641CC9D564004B9B68</string>
-				<string>8D8B7B651CC9D564004B9B68</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>8D8B7B641CC9D564004B9B68</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>4154FADA5112835D575A03A4</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>INFOPLIST_FILE</key>
-				<string>ZxTODOTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.home.zubrin.ZxTODOTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/ZxTODO.app/ZxTODO</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>8D8B7B651CC9D564004B9B68</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>801999C5D6378BFCB75E05D5</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>INFOPLIST_FILE</key>
-				<string>ZxTODOTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.home.zubrin.ZxTODOTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/ZxTODO.app/ZxTODO</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>8D8B7B661CC9D564004B9B68</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>8D8B7B671CC9D564004B9B68</string>
-				<string>8D8B7B681CC9D564004B9B68</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>8D8B7B671CC9D564004B9B68</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>INFOPLIST_FILE</key>
-				<string>ZxTODOUITests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.home.zubrin.ZxTODOUITests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_TARGET_NAME</key>
-				<string>ZxTODO</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>8D8B7B681CC9D564004B9B68</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>INFOPLIST_FILE</key>
-				<string>ZxTODOUITests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.home.zubrin.ZxTODOUITests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_TARGET_NAME</key>
-				<string>ZxTODO</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>A659D6AF625DBA42BCFB220A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>64B5A1993599D6619D310F2A</string>
-				<string>1069374911F5ED8A0C7A2C16</string>
-				<string>4154FADA5112835D575A03A4</string>
-				<string>801999C5D6378BFCB75E05D5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BF650B07C96C739DC2C57314</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods_ZxTODOTests.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>C6EC4EED4EC38DD8AF1B82ED</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>C7E9E33ECA7266C032957008</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-ZxTODO/Pods-ZxTODO-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>E843DD00D092BA781424BAB5</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-ZxTODOTests/Pods-ZxTODOTests-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>EC0B5C3A7B0075066AA97A9D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-ZxTODO/Pods-ZxTODO-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>F2B6C561B370871E30D775BA</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods_ZxTODO.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>8D8B7B2B1CC9D563004B9B68</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2598CC6E0FF23FADBA77712E /* Pods_ZxTODOTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF650B07C96C739DC2C57314 /* Pods_ZxTODOTests.framework */; };
+		5E351CDBD1922AD84DF42591 /* Pods_ZxTODO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2B6C561B370871E30D775BA /* Pods_ZxTODO.framework */; };
+		8D661CB61CCBC1FA0060E7F1 /* DropboxManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D661CB51CCBC1FA0060E7F1 /* DropboxManager.swift */; };
+		8D661CB91CCBC2550060E7F1 /* ServicesLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D661CB81CCBC2550060E7F1 /* ServicesLocator.swift */; };
+		8D661CC01CCBCC890060E7F1 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D661CBF1CCBCC890060E7F1 /* AuthViewController.swift */; };
+		8D661CC31CCBCCC00060E7F1 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D661CC21CCBCCC00060E7F1 /* AuthViewModel.swift */; };
+		8D661CC71CCBCD750060E7F1 /* UIViewController+ServicesLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D661CC61CCBCD750060E7F1 /* UIViewController+ServicesLocator.swift */; };
+		8D661CCA1CCBD5150060E7F1 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D661CC91CCBD5150060E7F1 /* BaseViewModel.swift */; };
+		8D8B7B371CC9D564004B9B68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8B7B361CC9D564004B9B68 /* AppDelegate.swift */; };
+		8D8B7B3A1CC9D564004B9B68 /* ZxTODO.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8D8B7B381CC9D564004B9B68 /* ZxTODO.xcdatamodeld */; };
+		8D8B7B411CC9D564004B9B68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D8B7B3F1CC9D564004B9B68 /* Main.storyboard */; };
+		8D8B7B431CC9D564004B9B68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D8B7B421CC9D564004B9B68 /* Assets.xcassets */; };
+		8D8B7B461CC9D564004B9B68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D8B7B441CC9D564004B9B68 /* LaunchScreen.storyboard */; };
+		8D8B7B511CC9D564004B9B68 /* ZxTODOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8B7B501CC9D564004B9B68 /* ZxTODOTests.swift */; };
+		8D8B7B5C1CC9D564004B9B68 /* ZxTODOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8B7B5B1CC9D564004B9B68 /* ZxTODOUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D8B7B4D1CC9D564004B9B68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D8B7B2B1CC9D563004B9B68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D8B7B321CC9D563004B9B68;
+			remoteInfo = ZxTODO;
+		};
+		8D8B7B581CC9D564004B9B68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D8B7B2B1CC9D563004B9B68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D8B7B321CC9D563004B9B68;
+			remoteInfo = ZxTODO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1069374911F5ED8A0C7A2C16 /* Pods-ZxTODO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZxTODO.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZxTODO/Pods-ZxTODO.release.xcconfig"; sourceTree = "<group>"; };
+		4154FADA5112835D575A03A4 /* Pods-ZxTODOTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZxTODOTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZxTODOTests/Pods-ZxTODOTests.debug.xcconfig"; sourceTree = "<group>"; };
+		64B5A1993599D6619D310F2A /* Pods-ZxTODO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZxTODO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZxTODO/Pods-ZxTODO.debug.xcconfig"; sourceTree = "<group>"; };
+		801999C5D6378BFCB75E05D5 /* Pods-ZxTODOTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZxTODOTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZxTODOTests/Pods-ZxTODOTests.release.xcconfig"; sourceTree = "<group>"; };
+		8D661CB51CCBC1FA0060E7F1 /* DropboxManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DropboxManager.swift; path = Services/DropboxManager.swift; sourceTree = "<group>"; };
+		8D661CB81CCBC2550060E7F1 /* ServicesLocator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ServicesLocator.swift; path = Services/ServicesLocator.swift; sourceTree = "<group>"; };
+		8D661CBB1CCBC4140060E7F1 /* ZxTODO-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZxTODO-Bridging-Header.h"; sourceTree = "<group>"; };
+		8D661CBF1CCBCC890060E7F1 /* AuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AuthViewController.swift; path = "View Controllers/AuthViewController.swift"; sourceTree = "<group>"; };
+		8D661CC21CCBCCC00060E7F1 /* AuthViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AuthViewModel.swift; path = "View Controllers/AuthViewModel.swift"; sourceTree = "<group>"; };
+		8D661CC61CCBCD750060E7F1 /* UIViewController+ServicesLocator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+ServicesLocator.swift"; path = "Utils/UIViewController+ServicesLocator.swift"; sourceTree = "<group>"; };
+		8D661CC91CCBD5150060E7F1 /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseViewModel.swift; path = "View Controllers/BaseViewModel.swift"; sourceTree = "<group>"; };
+		8D8B7B331CC9D563004B9B68 /* ZxTODO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZxTODO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D8B7B361CC9D564004B9B68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8D8B7B391CC9D564004B9B68 /* ZxTODO.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZxTODO.xcdatamodel; sourceTree = "<group>"; };
+		8D8B7B401CC9D564004B9B68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D8B7B421CC9D564004B9B68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D8B7B451CC9D564004B9B68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D8B7B471CC9D564004B9B68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D8B7B4C1CC9D564004B9B68 /* ZxTODOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZxTODOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D8B7B501CC9D564004B9B68 /* ZxTODOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZxTODOTests.swift; sourceTree = "<group>"; };
+		8D8B7B521CC9D564004B9B68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D8B7B571CC9D564004B9B68 /* ZxTODOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZxTODOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D8B7B5B1CC9D564004B9B68 /* ZxTODOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZxTODOUITests.swift; sourceTree = "<group>"; };
+		8D8B7B5D1CC9D564004B9B68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF650B07C96C739DC2C57314 /* Pods_ZxTODOTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZxTODOTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2B6C561B370871E30D775BA /* Pods_ZxTODO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZxTODO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D8B7B301CC9D563004B9B68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E351CDBD1922AD84DF42591 /* Pods_ZxTODO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D8B7B491CC9D564004B9B68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2598CC6E0FF23FADBA77712E /* Pods_ZxTODOTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D8B7B541CC9D564004B9B68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		796FAB10B5EC1A30731BF7BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2B6C561B370871E30D775BA /* Pods_ZxTODO.framework */,
+				BF650B07C96C739DC2C57314 /* Pods_ZxTODOTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D661CB31CCBC09F0060E7F1 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8D8B7B3F1CC9D564004B9B68 /* Main.storyboard */,
+				8D8B7B441CC9D564004B9B68 /* LaunchScreen.storyboard */,
+				8D661CC81CCBD4EE0060E7F1 /* Base */,
+				8D661CC11CCBCCA40060E7F1 /* Authorization */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		8D661CB41CCBC0B30060E7F1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8D8B7B381CC9D564004B9B68 /* ZxTODO.xcdatamodeld */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		8D661CB71CCBC2250060E7F1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8D661CB81CCBC2550060E7F1 /* ServicesLocator.swift */,
+				8D661CB51CCBC1FA0060E7F1 /* DropboxManager.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		8D661CBA1CCBC3AA0060E7F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D8B7B421CC9D564004B9B68 /* Assets.xcassets */,
+				8D8B7B471CC9D564004B9B68 /* Info.plist */,
+				8D661CBB1CCBC4140060E7F1 /* ZxTODO-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D661CC11CCBCCA40060E7F1 /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				8D661CC21CCBCCC00060E7F1 /* AuthViewModel.swift */,
+				8D661CBF1CCBCC890060E7F1 /* AuthViewController.swift */,
+			);
+			name = Authorization;
+			sourceTree = "<group>";
+		};
+		8D661CC41CCBCD370060E7F1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8D661CC51CCBCD460060E7F1 /* Extensions */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		8D661CC51CCBCD460060E7F1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8D661CC61CCBCD750060E7F1 /* UIViewController+ServicesLocator.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		8D661CC81CCBD4EE0060E7F1 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				8D661CC91CCBD5150060E7F1 /* BaseViewModel.swift */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		8D8B7B2A1CC9D563004B9B68 = {
+			isa = PBXGroup;
+			children = (
+				8D8B7B351CC9D564004B9B68 /* ZxTODO */,
+				8D8B7B4F1CC9D564004B9B68 /* ZxTODOTests */,
+				8D8B7B5A1CC9D564004B9B68 /* ZxTODOUITests */,
+				8D8B7B341CC9D563004B9B68 /* Products */,
+				A659D6AF625DBA42BCFB220A /* Pods */,
+				796FAB10B5EC1A30731BF7BB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8D8B7B341CC9D563004B9B68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D8B7B331CC9D563004B9B68 /* ZxTODO.app */,
+				8D8B7B4C1CC9D564004B9B68 /* ZxTODOTests.xctest */,
+				8D8B7B571CC9D564004B9B68 /* ZxTODOUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D8B7B351CC9D564004B9B68 /* ZxTODO */ = {
+			isa = PBXGroup;
+			children = (
+				8D8B7B361CC9D564004B9B68 /* AppDelegate.swift */,
+				8D661CB41CCBC0B30060E7F1 /* Models */,
+				8D661CB71CCBC2250060E7F1 /* Services */,
+				8D661CB31CCBC09F0060E7F1 /* View Controllers */,
+				8D661CC41CCBCD370060E7F1 /* Utils */,
+				8D661CBA1CCBC3AA0060E7F1 /* Supporting Files */,
+			);
+			path = ZxTODO;
+			sourceTree = "<group>";
+		};
+		8D8B7B4F1CC9D564004B9B68 /* ZxTODOTests */ = {
+			isa = PBXGroup;
+			children = (
+				8D8B7B501CC9D564004B9B68 /* ZxTODOTests.swift */,
+				8D8B7B521CC9D564004B9B68 /* Info.plist */,
+			);
+			path = ZxTODOTests;
+			sourceTree = "<group>";
+		};
+		8D8B7B5A1CC9D564004B9B68 /* ZxTODOUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8D8B7B5B1CC9D564004B9B68 /* ZxTODOUITests.swift */,
+				8D8B7B5D1CC9D564004B9B68 /* Info.plist */,
+			);
+			path = ZxTODOUITests;
+			sourceTree = "<group>";
+		};
+		A659D6AF625DBA42BCFB220A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64B5A1993599D6619D310F2A /* Pods-ZxTODO.debug.xcconfig */,
+				1069374911F5ED8A0C7A2C16 /* Pods-ZxTODO.release.xcconfig */,
+				4154FADA5112835D575A03A4 /* Pods-ZxTODOTests.debug.xcconfig */,
+				801999C5D6378BFCB75E05D5 /* Pods-ZxTODOTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D8B7B321CC9D563004B9B68 /* ZxTODO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D8B7B601CC9D564004B9B68 /* Build configuration list for PBXNativeTarget "ZxTODO" */;
+			buildPhases = (
+				C6EC4EED4EC38DD8AF1B82ED /* Check Pods Manifest.lock */,
+				8D8B7B2F1CC9D563004B9B68 /* Sources */,
+				8D8B7B301CC9D563004B9B68 /* Frameworks */,
+				8D8B7B311CC9D563004B9B68 /* Resources */,
+				EC0B5C3A7B0075066AA97A9D /* Embed Pods Frameworks */,
+				C7E9E33ECA7266C032957008 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZxTODO;
+			productName = ZxTODO;
+			productReference = 8D8B7B331CC9D563004B9B68 /* ZxTODO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D8B7B4B1CC9D564004B9B68 /* ZxTODOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D8B7B631CC9D564004B9B68 /* Build configuration list for PBXNativeTarget "ZxTODOTests" */;
+			buildPhases = (
+				262277782361CC1BEFDC9E32 /* Check Pods Manifest.lock */,
+				8D8B7B481CC9D564004B9B68 /* Sources */,
+				8D8B7B491CC9D564004B9B68 /* Frameworks */,
+				8D8B7B4A1CC9D564004B9B68 /* Resources */,
+				E843DD00D092BA781424BAB5 /* Embed Pods Frameworks */,
+				721066124EAFD3B7D709EC7E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D8B7B4E1CC9D564004B9B68 /* PBXTargetDependency */,
+			);
+			name = ZxTODOTests;
+			productName = ZxTODOTests;
+			productReference = 8D8B7B4C1CC9D564004B9B68 /* ZxTODOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8D8B7B561CC9D564004B9B68 /* ZxTODOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D8B7B661CC9D564004B9B68 /* Build configuration list for PBXNativeTarget "ZxTODOUITests" */;
+			buildPhases = (
+				8D8B7B531CC9D564004B9B68 /* Sources */,
+				8D8B7B541CC9D564004B9B68 /* Frameworks */,
+				8D8B7B551CC9D564004B9B68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D8B7B591CC9D564004B9B68 /* PBXTargetDependency */,
+			);
+			name = ZxTODOUITests;
+			productName = ZxTODOUITests;
+			productReference = 8D8B7B571CC9D564004B9B68 /* ZxTODOUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D8B7B2B1CC9D563004B9B68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Slava Zubrin";
+				TargetAttributes = {
+					8D8B7B321CC9D563004B9B68 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					8D8B7B4B1CC9D564004B9B68 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 8D8B7B321CC9D563004B9B68;
+					};
+					8D8B7B561CC9D564004B9B68 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 8D8B7B321CC9D563004B9B68;
+					};
+				};
+			};
+			buildConfigurationList = 8D8B7B2E1CC9D563004B9B68 /* Build configuration list for PBXProject "ZxTODO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D8B7B2A1CC9D563004B9B68;
+			productRefGroup = 8D8B7B341CC9D563004B9B68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D8B7B321CC9D563004B9B68 /* ZxTODO */,
+				8D8B7B4B1CC9D564004B9B68 /* ZxTODOTests */,
+				8D8B7B561CC9D564004B9B68 /* ZxTODOUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D8B7B311CC9D563004B9B68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D8B7B461CC9D564004B9B68 /* LaunchScreen.storyboard in Resources */,
+				8D8B7B431CC9D564004B9B68 /* Assets.xcassets in Resources */,
+				8D8B7B411CC9D564004B9B68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D8B7B4A1CC9D564004B9B68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D8B7B551CC9D564004B9B68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		262277782361CC1BEFDC9E32 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		721066124EAFD3B7D709EC7E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZxTODOTests/Pods-ZxTODOTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6EC4EED4EC38DD8AF1B82ED /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C7E9E33ECA7266C032957008 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZxTODO/Pods-ZxTODO-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E843DD00D092BA781424BAB5 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZxTODOTests/Pods-ZxTODOTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC0B5C3A7B0075066AA97A9D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZxTODO/Pods-ZxTODO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D8B7B2F1CC9D563004B9B68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D661CB91CCBC2550060E7F1 /* ServicesLocator.swift in Sources */,
+				8D661CC71CCBCD750060E7F1 /* UIViewController+ServicesLocator.swift in Sources */,
+				8D8B7B371CC9D564004B9B68 /* AppDelegate.swift in Sources */,
+				8D661CC31CCBCCC00060E7F1 /* AuthViewModel.swift in Sources */,
+				8D661CC01CCBCC890060E7F1 /* AuthViewController.swift in Sources */,
+				8D661CCA1CCBD5150060E7F1 /* BaseViewModel.swift in Sources */,
+				8D8B7B3A1CC9D564004B9B68 /* ZxTODO.xcdatamodeld in Sources */,
+				8D661CB61CCBC1FA0060E7F1 /* DropboxManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D8B7B481CC9D564004B9B68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D8B7B511CC9D564004B9B68 /* ZxTODOTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D8B7B531CC9D564004B9B68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D8B7B5C1CC9D564004B9B68 /* ZxTODOUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D8B7B4E1CC9D564004B9B68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D8B7B321CC9D563004B9B68 /* ZxTODO */;
+			targetProxy = 8D8B7B4D1CC9D564004B9B68 /* PBXContainerItemProxy */;
+		};
+		8D8B7B591CC9D564004B9B68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D8B7B321CC9D563004B9B68 /* ZxTODO */;
+			targetProxy = 8D8B7B581CC9D564004B9B68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8D8B7B3F1CC9D564004B9B68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D8B7B401CC9D564004B9B68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8D8B7B441CC9D564004B9B68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D8B7B451CC9D564004B9B68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D8B7B5E1CC9D564004B9B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LIBRARY_SEARCH_PATHS = "`";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8D8B7B5F1CC9D564004B9B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LIBRARY_SEARCH_PATHS = "`";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D8B7B611CC9D564004B9B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64B5A1993599D6619D310F2A /* Pods-ZxTODO.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = ZxTODO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.home.zubrin.ZxTODO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZxTODO/ZxTODO-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8D8B7B621CC9D564004B9B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1069374911F5ED8A0C7A2C16 /* Pods-ZxTODO.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = ZxTODO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.home.zubrin.ZxTODO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZxTODO/ZxTODO-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		8D8B7B641CC9D564004B9B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4154FADA5112835D575A03A4 /* Pods-ZxTODOTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZxTODOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.home.zubrin.ZxTODOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZxTODO.app/ZxTODO";
+			};
+			name = Debug;
+		};
+		8D8B7B651CC9D564004B9B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 801999C5D6378BFCB75E05D5 /* Pods-ZxTODOTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZxTODOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.home.zubrin.ZxTODOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZxTODO.app/ZxTODO";
+			};
+			name = Release;
+		};
+		8D8B7B671CC9D564004B9B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZxTODOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.home.zubrin.ZxTODOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZxTODO;
+			};
+			name = Debug;
+		};
+		8D8B7B681CC9D564004B9B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZxTODOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.home.zubrin.ZxTODOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZxTODO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D8B7B2E1CC9D563004B9B68 /* Build configuration list for PBXProject "ZxTODO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D8B7B5E1CC9D564004B9B68 /* Debug */,
+				8D8B7B5F1CC9D564004B9B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D8B7B601CC9D564004B9B68 /* Build configuration list for PBXNativeTarget "ZxTODO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D8B7B611CC9D564004B9B68 /* Debug */,
+				8D8B7B621CC9D564004B9B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D8B7B631CC9D564004B9B68 /* Build configuration list for PBXNativeTarget "ZxTODOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D8B7B641CC9D564004B9B68 /* Debug */,
+				8D8B7B651CC9D564004B9B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D8B7B661CC9D564004B9B68 /* Build configuration list for PBXNativeTarget "ZxTODOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D8B7B671CC9D564004B9B68 /* Debug */,
+				8D8B7B681CC9D564004B9B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8D8B7B381CC9D564004B9B68 /* ZxTODO.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8D8B7B391CC9D564004B9B68 /* ZxTODO.xcdatamodel */,
+			);
+			currentVersion = 8D8B7B391CC9D564004B9B68 /* ZxTODO.xcdatamodel */;
+			path = ZxTODO.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8D8B7B2B1CC9D563004B9B68 /* Project object */;
+}
