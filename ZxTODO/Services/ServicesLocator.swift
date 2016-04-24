@@ -8,7 +8,10 @@
 
 import Foundation
 
-class ServicesLocator {
-    
+protocol ServicesLocatorProtocol {
+    var dropboxService: DropboxServiceProtocol { get }
+}
+
+class ServicesLocator: ServicesLocatorProtocol {
     lazy var dropboxService: DropboxServiceProtocol = DropboxManager()
 }

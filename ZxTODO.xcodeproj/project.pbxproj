@@ -22,6 +22,17 @@
 		8D8B7B461CC9D564004B9B68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D8B7B441CC9D564004B9B68 /* LaunchScreen.storyboard */; };
 		8D8B7B511CC9D564004B9B68 /* ZxTODOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8B7B501CC9D564004B9B68 /* ZxTODOTests.swift */; };
 		8D8B7B5C1CC9D564004B9B68 /* ZxTODOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8B7B5B1CC9D564004B9B68 /* ZxTODOUITests.swift */; };
+		8DB4A6BB1CCCB0590017425A /* AuthViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB4A6BA1CCCB0590017425A /* AuthViewModelTests.swift */; };
+		8DB4A6BF1CCCB0D00017425A /* DropboxServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB4A6BE1CCCB0D00017425A /* DropboxServiceMock.swift */; };
+		8DB4A6C01CCCB10D0017425A /* DropboxManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D661CB51CCBC1FA0060E7F1 /* DropboxManager.swift */; };
+		8DB4A6C11CCCB5A10017425A /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D661CC21CCBCCC00060E7F1 /* AuthViewModel.swift */; };
+		8DB4A6C21CCCB5BE0017425A /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D661CC91CCBD5150060E7F1 /* BaseViewModel.swift */; };
+		8DB4A6C41CCCB5F00017425A /* ServicesLocatorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB4A6C31CCCB5F00017425A /* ServicesLocatorMock.swift */; };
+		8DB4A6C51CCCB6D20017425A /* ServicesLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D661CB81CCBC2550060E7F1 /* ServicesLocator.swift */; };
+		8DB4A6C81CCCBAD30017425A /* TasksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB4A6C71CCCBAD30017425A /* TasksViewModel.swift */; };
+		8DB4A6C91CCCBAD30017425A /* TasksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB4A6C71CCCBAD30017425A /* TasksViewModel.swift */; };
+		8DB4A6CB1CCCBB260017425A /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB4A6CA1CCCBB260017425A /* TasksViewController.swift */; };
+		8DB4A6CC1CCCBB260017425A /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB4A6CA1CCCBB260017425A /* TasksViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +77,11 @@
 		8D8B7B571CC9D564004B9B68 /* ZxTODOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZxTODOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D8B7B5B1CC9D564004B9B68 /* ZxTODOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZxTODOUITests.swift; sourceTree = "<group>"; };
 		8D8B7B5D1CC9D564004B9B68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DB4A6BA1CCCB0590017425A /* AuthViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewModelTests.swift; sourceTree = "<group>"; };
+		8DB4A6BE1CCCB0D00017425A /* DropboxServiceMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DropboxServiceMock.swift; path = Mocks/DropboxServiceMock.swift; sourceTree = "<group>"; };
+		8DB4A6C31CCCB5F00017425A /* ServicesLocatorMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ServicesLocatorMock.swift; path = Mocks/ServicesLocatorMock.swift; sourceTree = "<group>"; };
+		8DB4A6C71CCCBAD30017425A /* TasksViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TasksViewModel.swift; path = "View Controllers/TasksViewModel.swift"; sourceTree = "<group>"; };
+		8DB4A6CA1CCCBB260017425A /* TasksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TasksViewController.swift; path = "View Controllers/TasksViewController.swift"; sourceTree = "<group>"; };
 		BF650B07C96C739DC2C57314 /* Pods_ZxTODOTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZxTODOTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2B6C561B370871E30D775BA /* Pods_ZxTODO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZxTODO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -113,6 +129,7 @@
 				8D8B7B441CC9D564004B9B68 /* LaunchScreen.storyboard */,
 				8D661CC81CCBD4EE0060E7F1 /* Base */,
 				8D661CC11CCBCCA40060E7F1 /* Authorization */,
+				8DB4A6C61CCCBA970017425A /* Tasks */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -216,6 +233,8 @@
 			isa = PBXGroup;
 			children = (
 				8D8B7B501CC9D564004B9B68 /* ZxTODOTests.swift */,
+				8DB4A6BC1CCCB0970017425A /* Mocks */,
+				8DB4A6B91CCCB0300017425A /* Authorization */,
 				8D8B7B521CC9D564004B9B68 /* Info.plist */,
 			);
 			path = ZxTODOTests;
@@ -228,6 +247,40 @@
 				8D8B7B5D1CC9D564004B9B68 /* Info.plist */,
 			);
 			path = ZxTODOUITests;
+			sourceTree = "<group>";
+		};
+		8DB4A6B91CCCB0300017425A /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				8DB4A6BA1CCCB0590017425A /* AuthViewModelTests.swift */,
+			);
+			name = Authorization;
+			sourceTree = "<group>";
+		};
+		8DB4A6BC1CCCB0970017425A /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				8DB4A6BD1CCCB0A00017425A /* Services */,
+			);
+			name = Mocks;
+			sourceTree = "<group>";
+		};
+		8DB4A6BD1CCCB0A00017425A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8DB4A6C31CCCB5F00017425A /* ServicesLocatorMock.swift */,
+				8DB4A6BE1CCCB0D00017425A /* DropboxServiceMock.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		8DB4A6C61CCCBA970017425A /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				8DB4A6C71CCCBAD30017425A /* TasksViewModel.swift */,
+				8DB4A6CA1CCCBB260017425A /* TasksViewController.swift */,
+			);
+			name = Tasks;
 			sourceTree = "<group>";
 		};
 		A659D6AF625DBA42BCFB220A /* Pods */ = {
@@ -475,8 +528,10 @@
 				8D661CC71CCBCD750060E7F1 /* UIViewController+ServicesLocator.swift in Sources */,
 				8D8B7B371CC9D564004B9B68 /* AppDelegate.swift in Sources */,
 				8D661CC31CCBCCC00060E7F1 /* AuthViewModel.swift in Sources */,
+				8DB4A6C81CCCBAD30017425A /* TasksViewModel.swift in Sources */,
 				8D661CC01CCBCC890060E7F1 /* AuthViewController.swift in Sources */,
 				8D661CCA1CCBD5150060E7F1 /* BaseViewModel.swift in Sources */,
+				8DB4A6CB1CCCBB260017425A /* TasksViewController.swift in Sources */,
 				8D8B7B3A1CC9D564004B9B68 /* ZxTODO.xcdatamodeld in Sources */,
 				8D661CB61CCBC1FA0060E7F1 /* DropboxManager.swift in Sources */,
 			);
@@ -486,7 +541,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DB4A6C51CCCB6D20017425A /* ServicesLocator.swift in Sources */,
+				8DB4A6C41CCCB5F00017425A /* ServicesLocatorMock.swift in Sources */,
+				8DB4A6C11CCCB5A10017425A /* AuthViewModel.swift in Sources */,
+				8DB4A6C01CCCB10D0017425A /* DropboxManager.swift in Sources */,
+				8DB4A6C91CCCBAD30017425A /* TasksViewModel.swift in Sources */,
+				8DB4A6BB1CCCB0590017425A /* AuthViewModelTests.swift in Sources */,
 				8D8B7B511CC9D564004B9B68 /* ZxTODOTests.swift in Sources */,
+				8DB4A6CC1CCCBB260017425A /* TasksViewController.swift in Sources */,
+				8DB4A6BF1CCCB0D00017425A /* DropboxServiceMock.swift in Sources */,
+				8DB4A6C21CCCB5BE0017425A /* BaseViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
