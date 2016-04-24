@@ -10,9 +10,9 @@ import Foundation
 
 class BaseViewModel {
     
-    var services: ServicesLocator
+    var services: ServicesLocatorProtocol
     
-    init(servicesLocator: ServicesLocator) {
+    init(servicesLocator: ServicesLocatorProtocol) {
         services = servicesLocator
     }
 }
